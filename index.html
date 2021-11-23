@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+<body>
+        <title></title>
+        <script>
+            var x=+prompt("Введите число");
+            var result=x*10;
+            var result2=x*x;
+            var browser, uAgent=navigator.userAgent;
+            if(uAgent.indexOf ("Chrome")>-1){
+                alert("Ваше число, умноженное на 10 равно " + result);
+            }
+            else if(uAgent.indexOf("Firefox")>-1){
+                alert("Ваше число, возведенное в квадрат равно " + result2);
+            }
+        </script>
+</body>
+</html>
